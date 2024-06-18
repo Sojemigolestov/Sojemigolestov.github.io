@@ -1,0 +1,136 @@
+.navbar{
+    padding-bottom: 0.5%;
+}
+
+.navbar-brand{
+ font-family: Ubuntu Sans Mono;
+ font-weight: lighter;   
+}
+
+body{
+    background-color: #3a3f45;
+}
+
+.container{
+    padding-top: 65px;
+    margin-left: 0px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: Ubuntu Sans Mono;
+    font-style: italic;
+}
+
+.video_container {
+    background-image: url("");
+    text-align: justify;
+    font-family: Ubuntu Sans Mono;
+    font-style: italic;
+    font-weight: light;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-left: 60px;
+  }
+
+.video {
+    display: flex;
+    justify-content: center;
+  }
+  
+  iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
+.project_title{
+    padding-top: 80px;
+    text-align: center;
+    font-family: Ubuntu Sans Mono;
+    font-style: italic;
+    font-weight: light;
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+
+.bio_pic{
+    padding-top: 80px;
+    text-align: center;
+    font-style: normal;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 12px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.bio_quote{
+    font-size: 1.7rem;
+    padding-left: 50px;
+    padding-top: 140px;
+    color: whitesmoke;
+    text-shadow: pink;
+}
+
+.about_me{
+    font-size: 0.5rem;
+}
+
+.card_container{
+    padding-bottom: 60px;
+    margin-left: 10px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: Ubuntu Sans Mono;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.card-body{
+    background-color: #c0c7d2;
+}
+
+.card-title{
+    padding-top: 50px;
+}
+
+.foot{
+    margin-left: 180px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-github {
+    background: #00090d;
+    color: white;
+  }
+
+  .fa-google {
+    background: red;
+    color: white;
+  }
+
+  .pic{
+    padding-left: 100px;
+  }
